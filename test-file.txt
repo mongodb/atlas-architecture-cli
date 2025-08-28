@@ -1,0 +1,2 @@
+Hello, world! I'm a file at level two. I won't be copied unless
+recursive copy is enabled.
