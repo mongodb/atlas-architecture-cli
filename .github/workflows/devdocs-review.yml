@@ -9,7 +9,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     if: ${{ github.event.pull_request || github.event.issue.pull_request }}
-    steps:
+    steps: 
       - name: Send Slack Notification
         env:
           EVENT_BODY: ${{ github.event.pull_request.body || github.event.comment.body }}
